@@ -59,6 +59,10 @@ repos:
         additional_dependencies:
           - eslint@9.20.0
           - eslint-config-google@0.14.0
+          - globals@15.14.0
+          - "@eslint/js@9.20.0"
+          - "@eslint/eslintrc@3.2.0"
+
         args: ["--fix"]
   - repo: https://github.com/pre-commit/mirrors-mypy
     rev: v1.14.1
