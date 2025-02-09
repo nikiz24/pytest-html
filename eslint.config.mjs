@@ -20,7 +20,7 @@ export default [...compat.extends('google'), {
         },
 
         ecmaVersion: 'latest',
-        sourceType: 'script',
+        sourceType: 'module',
     },
 
     rules: {
