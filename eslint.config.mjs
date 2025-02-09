@@ -25,6 +25,7 @@ export default [...compat.extends('google'), {
 
     rules: {
         'array-bracket-spacing': 'error',
+        'valid-jsdoc': 'off',
         'block-scoped-var': 'error',
         'block-spacing': 'error',
         'brace-style': 'error',
