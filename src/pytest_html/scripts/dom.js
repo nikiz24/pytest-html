@@ -80,6 +80,12 @@ const dom = {
             resultBody.querySelector('td[class="extra"]').insertAdjacentHTML('beforeend', item)
         })
 
+        // Default expand logwrapper
+        const logWrapper = resultBody.querySelector('.logwrapper');
+        if (logWrapper) {
+            logWrapper.classList.add('expanded');
+        }
+
         return resultBody
     },
 }

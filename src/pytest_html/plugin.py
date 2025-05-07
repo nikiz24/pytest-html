@@ -75,7 +75,7 @@ def pytest_addoption(parser):
     parser.addini(
         "generate_report_on_test",
         type="bool",
-        default=False,
+        default=True,
         help="the HTML report will be generated after each test "
         "instead of at the end of the run.",
     )
